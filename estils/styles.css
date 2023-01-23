@@ -123,6 +123,115 @@ main{
     font-weight: normal;
 }
 
+.top{
+    margin-top: 25px;
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.200), hsla(0, 0%, 0%, 0.200)),url(../imatges/img-6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.top h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--colorPrimary);
+    border-radius: 15px;
+}
+
+.productes{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.productes .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.productes .card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.productes h2{
+    width: fit-content;
+    margin: auto;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--colorPrimary);
+}
+
+.productes a{
+    width: fit-content;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--colorPrimary);
+    margin-top: 25px;
+}
+
+
+.productes .card .imatges{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    transition: all 500ms;
+}
+
+.productes .card .imatges img{
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productes .card:hover .imatges{
+    transform: translateX(-100%);
+}
+
+.productes .card .info{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.productes .card .info h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--colorPrimary);
+}
+
+.productes .card .info p{
+    margin-top: 10px;
+}
+
 footer{
     display: flex;
     align-items: center;
