@@ -353,6 +353,13 @@ form input, textarea{
     transition: 500ms all;
 }
 
+.team p{
+    font-size: 1.5em;
+    text-align: center;
+    width: 50%;
+    margin-top: 25px;
+}
+
 .horari{
     display: flex;
     flex-direction: column;
@@ -450,6 +457,54 @@ aside nav a:hover::before{
 .aside{
     width: 80%;
     margin-left: auto;
+}
+
+.products-offer{
+    width: auto;
+    height: 60vh;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.250), hsla(0, 0%, 0%, 0.250)),url(../imatges/img-18.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.products-offer h2{
+    color: white;
+    background-color: var(--colorPrimary);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.products-offer a{
+    margin-top: 25px;
+    background-color: white;
+    color: var(--colorPrimary);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contact-main h2{
+    text-align: center;
+    width: fit-content;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--colorPrimary);
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.contact-main p{
+    width: 50%;
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
 }
 
 footer{
