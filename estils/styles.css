@@ -1,5 +1,5 @@
 :root{
-    --colorPrimary: #003cbf;
+    --colorPrimary: #6F1AB6;
     --background: #eee;
 }
 
@@ -505,6 +505,45 @@ aside nav a:hover::before{
     margin: 0 auto;
     margin-top: 25px;
     text-align: center;
+}
+
+.atencio{
+    padding: 100px 0;
+}
+
+.atencio p,
+.atencio ul li{
+    font-size: 1.5em;
+    width: 70%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.atencio p:nth-of-type(2){
+    width: fit-content;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--colorPrimary);
+}
+
+.atencio ul{
+    margin-top: 50px;
+}
+
+.atencio table{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.atencio table th{
+    border: 1px solid var(--colorPrimary);
+    padding: 10px;
+    background-color: white;
+}
+
+.atencio table td{
+    padding: 10px;
+    background-color: var(--colorPrimary);
+    color: white;
 }
 
 footer{
