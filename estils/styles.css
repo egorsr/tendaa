@@ -582,3 +582,12 @@ footer a{
     text-decoration: none;
     border-bottom: 1px solid white;
 }
+
+.rss{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+}
